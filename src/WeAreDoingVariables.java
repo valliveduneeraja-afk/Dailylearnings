@@ -36,7 +36,5 @@ public class WeAreDoingVariables
         System.out.println(s3.age);
         System.out.println(s3.name);
         System.out.println(s3.marks);
-
-
     }
 }
