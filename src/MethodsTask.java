@@ -30,3 +30,60 @@ class Task {
     }
 
 }
+
+
+
+
+
+class Practice {
+    public static void main(String[] args) {
+        String wish = "Hi kyathi";
+        System.out.println(wish);
+        Add();
+        Sub();
+        Multi();
+        Div();
+    }
+    public static void Add(){
+        int a = 10, b = 20 ;
+        System.out.println(a+b);
+    }
+    public static void Sub(){
+        int a = 10, b = 20 ;
+        System.out.println(a-b);
+    }
+    public static void Multi(){
+        int a = 10, b = 20 ;
+        System.out.println(a*b);
+    }
+    public static void Div(){
+        int a = 10, b = 20 ;
+        System.out.println(a/b);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
