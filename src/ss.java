@@ -12,7 +12,7 @@ class ss {
     public static void main(String[] args) {
         Name n1 = new Name("Neeraja", 23, 53);
         Name n2 = new Name("kyathi", 24,50);
-        Name n3 = new Name("Prriya",25, 55);
+        Name n3 = new Name("Priya",25, 55);
         Name n4 = new Name("Salma",25, 52);
 
         System.out.println(n1.name + " - " + n1.age + " - " + n1.weight);
