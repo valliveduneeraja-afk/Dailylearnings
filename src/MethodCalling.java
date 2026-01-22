@@ -8,6 +8,7 @@ class Neeraja {
         Goodnight();
     }
     public static void Mrgmsg() {
+
         System.out.println("Good Morning");
     }
     public static void Noongreet() {
