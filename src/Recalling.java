@@ -143,21 +143,46 @@
 
 
 
- class methad {
-    public static void main(String[] args) {
-        String name;
-        System.out.println("Welcome to compiler");
-        Adding();
-        Subtraction();
-    }
+/// class methad {
+/// public static void main(String[] args) {
+///     String name;
+///     System.out.println("Welcome to compiler");
+///     Adding();
+///     Subtraction();
+/// }
+///
+/// public static void Adding() {
+///     int a = 13, b = 17;
+///     System.out.println(a+b);
+/// }
+/// public static void Subtraction(){
+///     int a = 223, b = 85;
+///     System.out.println(a-b);
+/// }
+///}
 
-    public static void Adding() {
-        int a = 13, b = 17;
-        System.out.println(a+b);
+
+
+
+
+
+
+/// Method defining and calling
+
+
+
+class Calling {
+    public static void main(String[] args) {
+        String msg = "Welcome to method calling";
+        System.out.println(msg);
+        WelcomeGreet();
+        BirthdayWish();
     }
-    public static void Subtraction(){
-        int a = 223, b = 85;
-        System.out.println(a-b);
+    public static void WelcomeGreet(){
+        System.out.println("Good evening");
+    }
+    public static void BirthdayWish() {
+        System.out.println("Happy Birthday");
     }
 }
 
