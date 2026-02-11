@@ -123,16 +123,41 @@
 ///  With parameters with return type
 
 
-class Withparams {
-    String message(String msg) {
-        return msg;
+///class Withparams {
+///   String message(String msg) {
+///     return msg;
+/// }
+///}
+///class Withret {
+/// public static void main(String[] args){
+///     Withparams v1 = new Withparams();
+///     String a = v1.message("With parameters With return type");
+///     System.out.println(a);
+/// }
+///}
+
+
+
+
+/// Methods calling and defining
+
+
+
+ class methad {
+    public static void main(String[] args) {
+        String name;
+        System.out.println("Welcome to compiler");
+        Adding();
+        Subtraction();
     }
-}
-class Withret {
-    public static void main(String[] args){
-        Withparams v1 = new Withparams();
-        String a = v1.message("With parameters With return type");
-        System.out.println(a);
+
+    public static void Adding() {
+        int a = 13, b = 17;
+        System.out.println(a+b);
+    }
+    public static void Subtraction(){
+        int a = 223, b = 85;
+        System.out.println(a-b);
     }
 }
 
