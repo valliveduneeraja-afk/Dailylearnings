@@ -17,9 +17,6 @@
 ///System.out.println(s2.name);
 ///System.out.println(s1.Age);
 ///System.out.println(s2.Age);
-
-
-
 class Copy {
     String name;
     int Age;
