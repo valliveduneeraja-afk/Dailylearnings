@@ -3,16 +3,16 @@ class Assignment2 {
         int num = 25;
         int num1 = -8;
         if (num > 0) {
-            System.out.println("25 is positive number");
+            System.out.println(num + " "+" is positive number");
         }
         else {
-            System.out.println("Num is a Positive number");
+            System.out.println(num +" "+" is a negative number");
         }
-        if (num1 < 0) {
-            System.out.println("-8 is a Negative");
+        if (num1 >0) {
+            System.out.println(num1+" "+"is a positive");
         }
         else {
-            System.out.println("Num is a negative number");
+            System.out.println(num1+" "+"is a negative number");
         }
     }
 }
